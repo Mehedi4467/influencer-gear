@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
     
 }
 
@@ -146,6 +147,10 @@ banner-section css strat here
     padding:17px 14px;
     
 }
+.collection-image img{
+    width: 100%;    
+  
+}
 .collection-details{
     padding:0 17px 15px;
 }
@@ -174,14 +179,47 @@ banner-section css strat here
     font-size: 24px;
     font-weight: normal;
 }
-.collection-image img{
-    width: 100%;    
-    
-    
-}
+
 .collection-details p{
     font-size: 14px;
     color: #898994;
     margin: 3px 0;
 }
+/*----------------------------------
+ collection style end here 
+------------------------------------ */
 
+
+
+
+
+
+
+/*----------------------------------
+ footer style start here 
+------------------------------------ */
+.footer-area{
+    margin-top: 30px;
+    background-color: #0A0826;
+    text-align: center;
+}
+.footer-area{
+    padding: 50px;
+}
+.footer-title h2{
+    color: #fff;
+    font-size: 24px;
+}
+.footer-title p{
+    color: #D9DBE1;
+    font-size: 14px;
+}
+.footer-icon i{
+    margin-top: 12px;
+    margin-right: 10px;
+    font-size: 14px;
+    border-radius: 100%;
+    padding: 8px;
+    color: #fff;
+    background-color: #22203B;
+}
