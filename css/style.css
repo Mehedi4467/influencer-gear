@@ -18,11 +18,7 @@ a{
     text-decoration: none;
    
 }
-a i{
-   margin-left: 10px;
-    font-weight: 0;
-    
-}
+
 a:hover.button-style{
     background-color: #DB6B97;
 }
@@ -33,11 +29,44 @@ a:hover.button-style{
     border-radius: 20px;
     display: inline-block;
 }
+.button-style i{
+    margin-left: 10px;
+     font-weight: 0;
+     
+ }
 
 
-/* ------------
+/*---------------------------------
+ header area style start here
+---------------------------------- */
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.logo h2{
+    font-size: 24px;
+    color:#3A3A3A;
+    
+}
+.menu-bar ul{
+    list-style: none;
+    display: flex;
+    
+}
+.menu-bar ul li{
+    margin-right: 35px;
+}
+
+.menu-bar ul li a {
+    color: #3A3A3A;
+    font-size: 16px;
+   
+}
+
+/* -------------------------------
 banner-section css strat here 
--------------- */
+---------------------------------- */
 
 .top-section{
     display: flex;
