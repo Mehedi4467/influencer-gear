@@ -101,6 +101,7 @@ banner-section css strat here
     position: relative;
     
 }
+
 .banner-image{
     position: absolute;
     top: 72px;
@@ -108,7 +109,11 @@ banner-section css strat here
 }
 .banner-image img{
     width: 90%;
+    transition: transform 1s;
     
+}
+.banner-image:hover img{
+    transform: scale(1.2);
 }
 
 /*----------------------------------
