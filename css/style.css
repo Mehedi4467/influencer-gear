@@ -333,9 +333,100 @@ banner-section css strat here
 
   /* responsive tablet  */
 
-  @media only screen and (min-width: 576px) and (max-width: 768px)  {
-    body{
-        background-color: green;
-    }
+  @media only screen and (min-width: 576px) and (max-width: 769px)  {
+      /* top menu section  */
+   .mobile-cart,.mobile-menu{
+       display: none;
+   }
+
+.logo h2{
+    font-size: 15px;
+    color:#3A3A3A;
+    font-weight: bolder;
+    
+}
+/* .menu-bar ul{
+    list-style: none;
+    display: flex;
+    
+} */
+.menu-bar ul li{
+    margin-right: 15px;
+}
+
+.menu-bar ul li a {
+    color: #3A3A3A;
+    font-size: 12px;
    
+}
+    .margin-y{
+        margin: 25px 0;
+    }
+
+
+
+
+     /* top section tablet menu  */
+     .top-section{
+        flex-direction: column;
+        
+    }
+    .banner-item{
+        width: 100%;
+    }
+    #banner-details{
+        order: 2;
+    }
+    #banner-image{
+        order: 1;
+    }
+    #banner-details h2{
+        font-size: 28px;
+    }
+    .banner-image img{
+        width: 100%;
+        
+    }
+    .banner-bg img{
+        width: 100%;
+        padding: 25px;
+    }
+    .banner-item{
+        text-align: center;
+    }
+
+  /* company brand section  */
+
+  .company-brand{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.brand-logo{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.brand-logo img{
+    width: 60%;
+}
+
+
+ /* collection area tablet style start here  */
+
+ .collections{
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+    }
+
+
+
+    /* ------------------------
+    laptop or computer dicice 
+    -----------------------------*/
+
+    @media only screen and (min-width: 769px) and (max-width: 1400px)  {
+        .mobile-cart,.mobile-menu{
+            display: none;
+        }
     }
