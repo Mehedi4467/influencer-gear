@@ -211,10 +211,39 @@ banner-section css strat here
  collection style end here 
 ------------------------------------ */
 
+/*----------------------------------
+ campping style start here 
+------------------------------------ */
+.campping-title h2{
+    margin-bottom: 50px;
+    
+}
+.camppings{
+    margin-top: 300px;
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
 
-
-
-
+}
+.campping-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.campping-text{
+    padding:20px ;
+}
+.campping-text h3{
+ 
+    color: #3A3A3A;
+    font-size: 23px;
+    font-weight: 600;
+}
+.campping-text p{
+    font-size: 16px;
+    color: #3A3A3A;
+    
+    padding-right: 20px;
+}
 
 
 /*----------------------------------
@@ -330,9 +359,17 @@ banner-section css strat here
     .collections{
         grid-template-columns: repeat(1,1fr);
     }
-
+    .camppings{
+        margin-top: 300px;
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+    
+    }
     
   }
+
+
 
 
 
@@ -420,6 +457,13 @@ banner-section css strat here
  .collections{
     grid-template-columns: repeat(2,1fr);
     
+}
+.camppings{
+    margin-top: 300px;
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+
 }
 
     }
